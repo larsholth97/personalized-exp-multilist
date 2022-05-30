@@ -1,0 +1,177 @@
+
+.candidate_container {
+  display: grid;
+  justify-content: center;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.candidate {
+  background-color: lightgrey;
+  width: 500px;
+  height: 300px;
+  margin-left: 35px;
+}
+
+.lists {
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px 240px;
+  margin-top: 70px;
+  grid-gap: 35px;
+  margin-left: 60px;
+  justify-content: center;
+}
+
+.box {
+  background-color: oldlace;
+  width: 240px;
+  height: 420px;
+  float: left;
+  border: 1px solid;
+}
+
+.questionanswers {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  justify-content: center;
+  grid-gap: 40px;
+  font-family: system-ui;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  height: 160px;
+  border-bottom: 1px solid black;
+}
+
+.questions {
+  display: grid;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: system-ui;
+  font-weight: 500;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.formchecklabel {
+  text-align: center;
+  float: left;
+  padding: 0 1em;
+  width: max-content;
+}
+
+.formpage {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.userquestion {
+  font-family: system-ui;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.useranswer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: system-ui;
+}
+
+.labelclass {
+  margin-right: 30px;
+}
+
+.radioage {
+  margin-bottom: 10px;
+}
+
+select {
+  height: 25px;
+  width: 300px;
+}
+
+.inputanswer {
+  height: 20px;
+  width: 293px;
+}
+
+.introtext {
+  font-family: system-ui;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.submit_button {
+  display: inline-block;
+  padding: 0.4em 3em;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family: system-ui;
+  font-size: larger;
+  font-weight: 500;
+  color:#FFFFFF;
+  background-color:#4eb5f1;
+  text-align:center;
+  transition: all 0.2s;
+  border: 1px solid lavender;
+  position: relative;
+  margin-top: 7%;
+  margin-bottom: 20%;
+  cursor: pointer;
+}
+
+.consent_button {
+  display: inline-block;
+  padding: 0.4em 3em;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family: system-ui;
+  font-size: larger;
+  font-weight: 500;
+  color:#FFFFFF;
+  background-color:#4eb5f1;
+  text-align:center;
+  transition: all 0.2s;
+  border: 1px solid lavender;
+  position: relative;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked ~ .borderline {
+  display: block;
+  bottom: 430px;
+  outline: 10px solid #4caf50;
+}
+
+.submit_button_sl {
+  display: inline-block;
+  padding: 0.4em 3em;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family: system-ui;
+  font-size: larger;
+  font-weight: 500;
+  color:#FFFFFF;
+  background-color:#4eb5f1;
+  text-align:center;
+  transition: all 0.2s;
+  border: 1px solid lavender;
+  position: relative;
+  margin-left: 43%;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1430px) {
+  .lists {
+    justify-content: unset;
+  }
+}
